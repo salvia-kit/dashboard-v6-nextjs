@@ -3,7 +3,7 @@ import { useToggle } from '../provider/context';
 export default function TopNavigation() {
   const { toggle } = useToggle();
   return (
-    <header className="bg-body h-20 items-center relative w-full z-10">
+    <header className="bg-[#25074d] h-20 items-center relative w-full z-10">
       <div className="flex flex-col h-full justify-center mx-auto px-3 relative">
         <div className="flex items-center pl-1 relative w-full sm:ml-0 sm:pr-2 lg:max-w-68">
           <div className="flex left-0 relative w-3/4">
